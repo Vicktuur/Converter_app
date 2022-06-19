@@ -49,7 +49,7 @@ form p {
     font-weight: bolder;
     font-style: italic;
 }
-.cels, .fahr, .kelvin, .rankine{
+.cels, .fahr {
     padding: 20px;
 }
 label{
@@ -74,14 +74,13 @@ input{
 }
 
 @media (min-width: 640px){
-    .cels, .fahr, .kelvin, .rankine{
+    .cels, .fahr, {
         padding: 50px;
     }
     .temp{
         display: grid;
         grid-template-columns: 3fr;
         justify-content: center;
-        
         width: 100%;
         margin-left: auto;
         margin-right: auto;
