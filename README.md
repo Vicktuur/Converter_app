@@ -5,7 +5,6 @@
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -24,10 +23,6 @@ Users should be able to:
 ![](./Mobile-view-Converter-project.png)
 ![](./Desktop-view-Converter-project.png)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
