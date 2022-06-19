@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;  
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    background: linear-gradient(180deg,hsl(176,68%,64%),hsl(198,60%,50%)); 
+}
+/* Converter heading*/
+.header h1 {
+    text-align: center;
+    background: linear-gradient(180deg,rgb(68, 114, 241),rgb(20, 172, 238));
+    box-shadow: 10px 10px 20px hsl(216, 53%, 9%);
+    color:brown;
+    border-radius: 50px;
+    padding: 10px;
+    margin-bottom: 50px;
+    font-family: serif;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.header p{
+    background-color: rgb(0, 143, 131);
+    padding:10px;
+    font-style:oblique;
+    color:white;
+    width: 70%;
+    border-end-end-radius: 40px;
+}
+/* Tempereture form */
+form{
+    background: linear-gradient(90deg,rgb(11, 75, 66),rgb(29, 141, 126));
+    padding: 40px;
+    border-radius: 20px;
+    color:rgb(124, 6, 6);
+}
+form h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(0, 3, 182);
+    background:linear-gradient( hsl(176,68%,64%),hsl(198,60%,50%));
+    width:80%;
+    border-radius: 10px;
+    padding:5px;
+    text-align: center;
+    margin:auto;
+}
+form p {
+    color:rgb(36, 4, 4);
+    font-weight: bolder;
+    font-style: italic;
+}
+.cels, .fahr, .kelvin, .rankine{
+    padding: 20px;
+}
+label{
+    font-size:x-large;
+    font-family:cursive; 
+}
+input{
+    padding: 10px;
+    border-radius: 50px;
+    font-size: large;
+    border: none;
+    width:50%;
+}
+/* Footer */
+.footer {
+    color:white;
+    font-style: italic;
+    text-align: center;
+    position: relative;
+    padding:15px;
+    width:95%;
+}
+
+@media (min-width: 640px){
+    .cels, .fahr, .kelvin, .rankine{
+        padding: 50px;
+    }
+    .temp{
+        display: grid;
+        grid-template-columns: 3fr;
+        justify-content: center;
+        
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    input{
+        padding:30px;
+        width: 100%;
+    }
+    form h2 {
+        padding:20px;
+    }
+    label{
+        padding:70px;
+    }
+}

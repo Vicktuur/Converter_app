@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="images/calculator.jpeg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Converter</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Converter</h3> 
+        <!-- Hint -->
+        <p>Hint: Input a figure into any of the boxes below for conversion</p>
+        <hr>
+    </div>
+    <form>
+        <h2>Temperature converter</h2> 
+        <div class="temp">
+            <!-- Celsius -->
+            <div class="cels">
+                <label for="celsius">Celsius:</label><br>
+                <input type="number" id="celsius" value="0"><br>
+            </div>
+            <!-- Fahrenheit -->
+            <div class="fahr">
+                <label for="fahr">Fahrenheit:</label><br>
+                <input type="number" id="fahr" value="32">
+            </div>
+            <div class="kelvin">
+                <label for="kelvin">Kelvin:</label><br>
+                <input type="number" id="kelvin" value="273.15">
+            </div>
+            <div class="rankine">
+                <label for="rankine">Rankine:</label><br>
+                <input type="number" id="rankine" value="491.67">
+            </div>
+        </div>
+    </form>
+    <footer>
+        <hr>
+        <div class="footer">&copy 2022 Converter</div>
+    </footer>
+   <script src="script.js"></script>
+</body>
+</html>
