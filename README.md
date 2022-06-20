@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live site URL: [converterapp](http://converterapps.netlify.app)
+- Live site URL: [converterapp.com](http://converterapps.netlify.app)
 
 
 ## My process
