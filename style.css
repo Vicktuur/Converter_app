@@ -79,7 +79,7 @@ input{
     }
     .temp{
         display: grid;
-        grid-template-columns: 3fr;
+        grid-template-columns: repeat(2,2fr);
         justify-content: center;
         width: 100%;
         margin-left: auto;
