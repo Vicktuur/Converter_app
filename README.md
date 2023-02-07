@@ -41,4 +41,4 @@ Users should be able to:
 
 ## Author
 
-- Twitter - [Abiye Iniabere](https://www.twitter.com/_vicktuur)
+- Twitter - [Abiye Iniabere](https://www.twitter.com/vicktuur_)
