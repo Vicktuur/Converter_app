@@ -49,7 +49,7 @@ form p {
     font-weight: bolder;
     font-style: italic;
 }
-.cels, .fahr {
+.cels, .fahren, .kel, .rank{
     padding: 20px;
 }
 label{
@@ -74,14 +74,13 @@ input{
 }
 
 @media (min-width: 640px){
-    .cels, .fahr, {
+    .cels, .fahren, .kel, .rank{
         padding: 50px;
     }
     .temp{
         display: grid;
-        grid-template-columns: repeat(2,2fr);
-        justify-content: center;
-        width: 100%;
+        grid-template-columns: repeat(2,4fr);
+        justify-content: center; 
         margin-left: auto;
         margin-right: auto;
     }
